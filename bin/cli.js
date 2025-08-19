@@ -18,7 +18,7 @@ const boilerplate = args[0];
 const projectName = args[1] || 'my-app';
 const repoUrl = boilerplates[boilerplate];
 
-console.log(`📦 Setting up ${boilerplate} boilerplate into ${projectName}...`);
+console.log(`📦 Setting up ${boilerplate} app into ${projectName}...`);
 
 try {
   execSync(`git clone ${repoUrl} ${projectName}`, { stdio: 'inherit' });
