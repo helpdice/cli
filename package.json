@@ -1,0 +1,11 @@
+{
+  "name": "@helpdice/cli",
+  "version": "1.0.0",
+  "bin": {
+    "@helpdice/cli": "./bin/cli.js"
+  },
+  "scripts": {
+    "release": "npm publish --access public"
+  },
+  "dependencies": {}
+}
